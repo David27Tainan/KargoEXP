@@ -8,6 +8,7 @@
 不用裝 Python、不用連網。用法看 [使用說明.html](使用說明.html)（下載後用瀏覽器開）。
 
 程式內的「檢查更新」鈕會到這裡的 Releases 抓最新版。
+每一版改了什麼看 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 它做什麼
 
