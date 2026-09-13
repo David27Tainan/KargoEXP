@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>魔龍經驗 更新紀錄</title><style>
+:root{--bg:#f6f4ee;--ink:#2a2622;--mute:#6f6760;--line:#dcd6cc;--acc:#8a4b1f;--card:#fffdf8}
+@media(prefers-color-scheme:dark){:root{--bg:#1e1c19;--ink:#ece7de;--mute:#a59d92;--line:#3a3631;--acc:#e0a06a;--card:#26231f}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.7 "Microsoft JhengHei","Noto Sans TC",system-ui,sans-serif}
+main{max-width:760px;margin:0 auto;padding:32px 20px 60px}
+h1{font-size:26px;margin:0 0 4px}h1 small{font-size:14px;color:var(--mute);font-weight:normal;margin-left:8px}
+h2{font-size:18px;margin:36px 0 10px;padding-bottom:4px;border-bottom:2px solid var(--acc)}
+p{margin:8px 0}ol,ul{margin:6px 0;padding-left:22px}li{margin:4px 0}
+a{color:var(--acc)}
+code{background:var(--card);border:1px solid var(--line);border-radius:4px;padding:1px 5px;font-size:13px}
+table{border-collapse:collapse;width:100%;margin:8px 0;font-size:14px}td,th{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}th{background:var(--card);white-space:nowrap}
+figure{margin:12px 0;text-align:center}figure img{max-width:100%;border:1px solid var(--line);border-radius:6px;background:#fff}figcaption{font-size:13px;color:var(--mute);margin-top:4px}
+.note{background:var(--card);border-left:4px solid var(--acc);padding:10px 14px;margin:12px 0;border-radius:0 6px 6px 0}
+.warn{border-left-color:#c0392b}
+nav{font-size:14px;color:var(--mute);margin-bottom:18px}nav a{margin-right:14px}
+.ver{color:var(--mute);font-weight:normal;font-size:14px;margin-left:8px}
+</style></head><body><main><h1>魔龍經驗<small>KargoEXP · 更新紀錄</small></h1>
+<nav><a href="index.html">使用說明</a><a href="changelog.html">更新紀錄</a><a href="https://github.com/David27Tainan/KargoEXP/releases/latest">下載最新版</a></nav>
+<p>每一版的 GitHub Release 說明就是這裡對應的那一節（<code>tools/publish_release.ps1</code> 發版時自動抓）。</p>
+<p>下載最新版：<a href="https://github.com/David27Tainan/KargoEXP/releases/latest">https://github.com/David27Tainan/KargoEXP/releases/latest</a> ・ 使用說明：<a href="https://david27tainan.github.io/KargoEXP/">https://david27tainan.github.io/KargoEXP/</a></p>
+<h2>v0.74.0<span class="ver">（2026-09-13）</span></h2>
+<ul>
+<li>新增：標題列程式圖示；「更新紀錄」鈕（開這一頁）。</li>
+<li>新增：健康列全部綠燈自動往左滑進去收起；每次開程式先顯示。</li>
+<li>調整：健康列拿掉「快捷欄」那列；收合鈕換成道具欄的紅色摺疊鈕。</li>
+<li>修正：1920×1080 等狀態列置中的畫面，自動定位六塊全錯（改成每塊各自找錨點）。</li>
+</ul>
+<h2>v0.72.0<span class="ver">（2026-09-13）</span></h2>
+<ul>
+<li>新增：主視窗右邊的「健康列」（每塊有沒有讀到，底下「校正」鈕）。</li>
+<li>調整：校準頁瘦身（名稱變按鈕、操作列搬底部、「讀到」欄只給結果）；頁籤換遊戲樣式。</li>
+</ul>
+<h2>v0.69.0<span class="ver">（2026-09-12）</span></h2>
+<ul>
+<li>新增：校準頁「自動定位」鈕，一鍵填好六塊位置。</li>
+<li>新增：標題列版本號；水錢數字依金額上色、HP／MP 改成藥水圖示。</li>
+<li>修正：自動定位在 WGC 模式右下角偏 7px；內建座標更新。</li>
+</ul>
+<h2>v0.66.0<span class="ver">（2026-09-11）</span></h2>
+<ul>
+<li>新增：「檢查更新」鈕，自動下載換檔重開。</li>
+<li>修正：換檔後新版啟動跳 Security validation failure。</li>
+</ul>
+<h2>v0.65.0<span class="ver">（2026-09-11）</span></h2>
+<ul>
+<li>新增：內建校準座標，第一次開就能讀。</li>
+<li>新增：藥水花費（水錢/hr、排行榜兩欄）。</li>
+<li>調整：校準頁改成一頁式拖框＋微調鈕。</li>
+</ul></main></body></html>

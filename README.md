@@ -2,13 +2,14 @@
 
 新楓之谷：經典版的「每張地圖每小時經驗、每小時水錢」小工具。
 
-## 下載
+## 下載與說明
 
-到 [Releases](../../releases/latest) 下載 `KargoEXP.exe`，放進任何空資料夾，點兩下就能跑。
-不用裝 Python、不用連網。用法看 [使用說明.html](使用說明.html)（下載後用瀏覽器開）。
+- **使用說明（直接開的網頁）**：https://david27tainan.github.io/KargoEXP/
+- **更新紀錄**：https://david27tainan.github.io/KargoEXP/changelog.html
+- **下載**：到 [Releases](../../releases/latest) 抓 `KargoEXP.exe`，放進任何空資料夾，點兩下就能跑。不用裝 Python。
 
-程式內的「檢查更新」鈕會到這裡的 Releases 抓最新版。
-每一版改了什麼看 [CHANGELOG.md](CHANGELOG.md)。
+程式內的「檢查更新」鈕會到這裡的 Releases 抓最新版；「更新紀錄」鈕開的就是上面那頁。
+（`使用說明.html` 跟 `docs/` 是同一份，repo 裡留一份方便離線看。）
 
 ## 它做什麼
 
