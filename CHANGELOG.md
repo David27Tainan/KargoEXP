@@ -1,6 +1,5 @@
 # 魔龍經驗（KargoEXP）版本紀錄
 
-每一版的 GitHub Release 說明就是這裡對應的那一節（`tools/publish_release.ps1` 發版時自動抓）。
 下載最新版：https://github.com/David27Tainan/KargoEXP/releases/latest ・ 使用說明：https://david27tainan.github.io/KargoEXP/
 
 ## v0.74.0（2026-09-13）
